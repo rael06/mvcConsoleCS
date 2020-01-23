@@ -17,8 +17,6 @@ namespace mvcConsoleCS.Views
 			var address = (Address)data["address"];
 			bool success = (bool)data["success"];
 			Console.WriteLine($"l'adresse : {address.Url} - port : {address.Port} est " + (success ? "valide" : "invalide"));
-			Console.WriteLine("Appuyer sur entrée  pour continuer..");
-			Console.ReadLine();
 		}
 	}
 }

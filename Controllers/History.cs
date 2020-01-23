@@ -10,9 +10,10 @@ namespace mvcConsoleCS.Controllers
 		private AddressRepository addressRepository = new AddressRepository();
 		private List<Address> addresses;
 
-		public override void Start()
+		public override string Start()
 		{
 			addresses = addressRepository.GetAll;
+			return "history";
 		}
 
 		protected override Dictionary<string, object> GenerateViewData()

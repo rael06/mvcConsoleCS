@@ -70,6 +70,7 @@
     <Compile Include="Controllers\History.cs" />
     <Compile Include="Controllers\Test.cs" />
     <Compile Include="Repositories\AddressRepository.cs" />
+    <Compile Include="Views\ErrorTestView.cs" />
     <Compile Include="Views\HelpView.cs" />
     <Compile Include="Views\HistoryView.cs" />
     <Compile Include="Views\TestView.cs" />

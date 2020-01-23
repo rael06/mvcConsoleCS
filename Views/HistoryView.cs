@@ -16,8 +16,6 @@ namespace mvcConsoleCS.Views
 			Console.WriteLine("history : ");
 			var addresses = (List<Address>)data["addresses"];
 			addresses.ForEach(a => DisplayAddress(a));
-			Console.WriteLine("Appuyer sur entrée  pour continuer..");
-			Console.ReadLine();
 		}
 
 		private void DisplayAddress(Address address)

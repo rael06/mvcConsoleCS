@@ -12,11 +12,9 @@ namespace mvcConsoleCS.Views
 
 		public override void Show()
 		{
-			Console.WriteLine("test : teste une adresse ip et son port, indiquez les paramètres -ip puis -port");
+			Console.WriteLine("test : teste une adresse ip et son port, indiquez les paramètres URL puis PORT");
 			Console.WriteLine("history : énumère tous les tests effectués");
 			Console.WriteLine("help : affiche l'aide");
-			Console.WriteLine("Appuyer sur entrée  pour continuer..");
-			Console.ReadLine();
 		}
 	}
 }
